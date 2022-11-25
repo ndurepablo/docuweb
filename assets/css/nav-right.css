@@ -1,0 +1,28 @@
+body{
+    overflow: hidden
+}
+
+.nav-right{
+    position: fixed;
+    right: 4px;
+    top: 30%;
+    cursor: pointer;
+}
+#nav-right{
+    position: fixed;
+    right: 0rem;
+    top: 30%;
+}
+
+.ul-nav-right{
+    list-style: none;
+}
+
+.ul-nav-right{
+    background-color: rgba(0,0,0,0);
+    background-image: url("../img/btn/testimoniosver-min.png");
+    background-size: cover;
+    height: 253px;
+    width: 53px;
+
+}

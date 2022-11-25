@@ -1,0 +1,77 @@
+
+/* Nav bar */
+.ul-navbar-custom{
+    z-index:100;
+    padding-left: 10rem;
+    transform: translateY(21.7rem); 
+}
+/* Add transition with jQuery */
+.navbar-custom-trans{
+    transition: 1s;
+}
+
+.ul-navbar-custom:hover{
+    transform: translateY(0rem); 
+}
+
+
+.btn-intro{
+    background-color: rgba(0,0,0,0);
+    background-image: url("../img/btn/menu-min.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 170px;
+    height: 65px;
+}
+
+
+.btn-video-1{
+    background-color: rgba(0,0,0,0);
+    background-image: url("../img/btn/pyharegua-min.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 140px;
+    height: 50px;
+}
+
+.btn-video-2{
+    background-color: rgba(0,0,0,0);
+    background-image: url("../img/btn/mbaeoikota-min.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 140px;
+    height: 50px;
+}
+.btn-video-3{
+    background-color: rgba(0,0,0,0);
+    background-image: url("../img/btn/doritos-min.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 142px;
+    height: 57px;
+}
+.btn-video-4{
+    background-color: rgba(0,0,0,0);
+    background-image: url("../img/btn/demasiadomucho-min.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 272px;
+    height: 84px;
+}
+.btn-video-5{
+    background-color: rgba(0,0,0,0);
+    background-image: url("../img/btn/ciano-min.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 140px;
+    height: 50px;
+}
+.btn-video-6{
+    background-color: rgba(0,0,0,0);
+    background-image: url("../img/btn/batman-min.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 140px;
+    height: 50px;
+}
+

@@ -1,0 +1,20 @@
+/* Body aspect */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh
+}
+
+/* General video grid style */
+.video-container{
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0px;
+}
+.video-grid{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
