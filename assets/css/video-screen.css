@@ -16,6 +16,7 @@
 .btn-close{ 
     position: absolute; 
     left: 96%;
-
+    top: 4%;
+    background-color: rgba(128, 128, 128, 5);
 
 }

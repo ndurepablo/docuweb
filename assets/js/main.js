@@ -44,6 +44,27 @@ $("body").ready(function(){
       })
     });
 
+/*  STEP 2: LOAD FULLSCREEN VIDEO */
+    // Event listener: video play btn
+    $(".btn-play-2").on("click", function(){
+      $("#div-list").fadeOut()
+
+      // Checking that the promise (div-list) is resolved
+      $("#div-list" ).promise().done(function() {
+        $("#div-video").load("player-2.html").hide().fadeIn(1000);
+      })
+    });
+
+/*  STEP 2: LOAD FULLSCREEN VIDEO */
+    // Event listener: video play btn
+    $(".btn-play-3").on("click", function(){
+      $("#div-list").fadeOut()
+
+      // Checking that the promise (div-list) is resolved
+      $("#div-list" ).promise().done(function() {
+        $("#div-video").load("player-3.html").hide().fadeIn(1000);
+      })
+    });
 
 
 /*  STEP 3: RETURN TO VIDEO GRID */

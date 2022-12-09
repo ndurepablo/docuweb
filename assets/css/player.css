@@ -9,7 +9,7 @@ video{
   position: relative !important;
 }
 
-.btn-play{
+.btn-play, .btn-play-2, .btn-play-3{
   position: absolute;
   top: 0;
   left: 0;
@@ -28,3 +28,12 @@ video{
 
 }
 
+.btn-play-2:hover{
+  opacity: 1;
+
+}
+
+.btn-play-3:hover{
+  opacity: 1;
+
+}
