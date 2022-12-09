@@ -1,3 +1,7 @@
+.div-video-screen{
+    /* position: relative */
+}
+
 .video-screen {
     object-fit: cover;
     height: 100vh;
@@ -7,4 +11,11 @@
 
 #video-full-screen{
     opacity: 5 !important;
+}
+
+.btn-close{ 
+    position: absolute; 
+    left: 96%;
+
+
 }
